@@ -81,6 +81,12 @@
   .card i {
     font-size: 2rem;
     color: #4db5f5;
+    
+  }
+
+  .card a{
+    text-decoration: none;
+    color: #4db5f5;
   }
   
   footer {
