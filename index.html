@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olsa Zeqiri</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="homecl">
+      <div class="container homecl-content">
+        <div class="homecl-text">
+          <h1>Hello, my name is <span>Olsa Zeqiri</span></h1>
+          <p>I'm a Student who is learning to be a Web Developer</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-content">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <br />
+          <p>
+            My name is Olsa Zeqiri, and I am 16 years old. I attend the
+            'Ulpiana' Gymnasium in Lipjan, where I study natural sciences. I'm
+            also taking a programming course at a digital school.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-cards">
+          <div class="card">
+            <i class="fa-regular fa-address-card"></i>
+            <h3>Portfolio Website</h3>
+            <p>This is my first portfolio.</p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-user-tie"></i>
+            <h3>Career</h3>
+            <p>
+              The app is designed to help individuals find career paths and make
+              informed decisions about their future.
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-regular fa-comments"></i>
+            <h3>About Me</h3>
+            <p>
+              I created this portfolio to share more about myself and my work.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <footer>
+        <div class="container footer-content">
+          <h2>Olsa Zeqiri</h2>
+          <p>First Portfolio</p>
+          <button class="hire-btn">Hire Me</button>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/olsa.zeqiiri/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="mailto:olsazeqiri88@gmail.com"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script>
+      const hireBtn = document.querySelector(".hire-btn");
+
+      hireBtn.addEventListener("mouseover", function () {
+        hireBtn.textContent =
+          "Click and text me in my Social Media to Hire Me!";
+      });
+
+      hireBtn.addEventListener("mouseout", function () {
+        hireBtn.textContent = "Hire Me";
+      });
+    </script>
+  </body>
+</html>
